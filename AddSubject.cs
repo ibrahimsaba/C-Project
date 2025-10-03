@@ -33,8 +33,6 @@ namespace Project
         {
             return Subjects.Find(a => a.SubjCode.Equals(subjcode, StringComparison.OrdinalIgnoreCase));
         }
-
-        // حفظ المواد في ملف
         private static void SaveSubjects()
         {
             using (StreamWriter sw = new StreamWriter(filePath, false))
@@ -45,8 +43,6 @@ namespace Project
                 }
             }
         }
-
-        // تحميل المواد من الملف عند بدء البرنامج
         public static void LoadSubjects()
         {
             Subjects.Clear();

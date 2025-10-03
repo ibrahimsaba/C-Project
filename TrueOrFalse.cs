@@ -11,7 +11,6 @@ namespace Project
         {
             CorrectAns = _correctAns;
         }
-
         public override void DisplayQuestion()
         {
             Console.WriteLine($"{Head} - Mark: {Mark}");
@@ -30,7 +29,7 @@ namespace Project
                 studentAnswer = false;
             else
             {
-                Console.WriteLine("❌ Please Enter a Valid Value (1/2 or true/false)");
+                Console.WriteLine("Please Enter a Valid Value (1/2 or true/false)");
                 return 0;
             }
 
@@ -41,11 +40,11 @@ namespace Project
             int result = Answer();
             if (result == Mark)
             {
-                Console.WriteLine("✔ Correct!");
+                Console.WriteLine("Correct!");
             }
             else
             {
-                Console.WriteLine($"✘ Wrong! Correct Answer is: {CorrectAns}");
+                Console.WriteLine($"Wrong! Correct Answer is: {CorrectAns}");
             }
             return result;
         }
