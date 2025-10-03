@@ -1,0 +1,4 @@
+TrueOrFalse|Q1|2+2|3|True
+CO|Q2|Which Language is OOP?|2|C#,CSS,Sass,HTML|1
+CM|Q3|What is your name?|1|Ibrahim,Mohamed,Ali,Ahmed|1,2,3
+TrueOrFalse|Q4|2+3=5|1|True
